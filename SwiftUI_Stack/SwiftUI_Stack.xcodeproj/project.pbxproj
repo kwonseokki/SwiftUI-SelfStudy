@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		82161DF92B1FF6C400AAB18D /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82161DF82B1FF6C400AAB18D /* MyBasicCard.swift */; };
+		826BB34F2B20A29E00545461 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BB34E2B20A29E00545461 /* MyCard.swift */; };
+		826BB3532B20A68D00545461 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BB3522B20A68D00545461 /* MyList.swift */; };
 		82726C2A2B1F565F00B8C53A /* SwiftUI_StackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82726C292B1F565F00B8C53A /* SwiftUI_StackApp.swift */; };
 		82726C2C2B1F565F00B8C53A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82726C2B2B1F565F00B8C53A /* ContentView.swift */; };
 		82726C2E2B1F566000B8C53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82726C2D2B1F566000B8C53A /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		82161DF82B1FF6C400AAB18D /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		826BB34E2B20A29E00545461 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		826BB3522B20A68D00545461 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		82726C262B1F565F00B8C53A /* SwiftUI_Stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Stack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82726C292B1F565F00B8C53A /* SwiftUI_StackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StackApp.swift; sourceTree = "<group>"; };
 		82726C2B2B1F565F00B8C53A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 				82726C292B1F565F00B8C53A /* SwiftUI_StackApp.swift */,
 				82726C2B2B1F565F00B8C53A /* ContentView.swift */,
 				82726C372B1F567600B8C53A /* MyProjectCard.swift */,
+				826BB34E2B20A29E00545461 /* MyCard.swift */,
 				82161DF82B1FF6C400AAB18D /* MyBasicCard.swift */,
+				826BB3522B20A68D00545461 /* MyList.swift */,
 				82726C2D2B1F566000B8C53A /* Assets.xcassets */,
 				82726C2F2B1F566000B8C53A /* Preview Content */,
 			);
@@ -146,7 +152,9 @@
 				82726C382B1F567600B8C53A /* MyProjectCard.swift in Sources */,
 				82726C2C2B1F565F00B8C53A /* ContentView.swift in Sources */,
 				82161DF92B1FF6C400AAB18D /* MyBasicCard.swift in Sources */,
+				826BB34F2B20A29E00545461 /* MyCard.swift in Sources */,
 				82726C2A2B1F565F00B8C53A /* SwiftUI_StackApp.swift in Sources */,
+				826BB3532B20A68D00545461 /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

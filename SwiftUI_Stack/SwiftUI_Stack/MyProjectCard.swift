@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct MyProjectCard: View {
+    // class는 참조형 struct는 값타입
+    // @State를 이용하여 구조체 내에서 상태값을 사용가능
+    @State var shouldShowAlert = false
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             Rectangle().frame(height: 0)
@@ -36,14 +40,21 @@ struct MyProjectCard: View {
                     .frame(width: 50, height: 50)
                     .clipShape(Circle())
                 Spacer()
-                Text("확인")
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width: 80)
-                    .background(.blue)
-                    .cornerRadius(20)
-                    
+                
+                Button(action: {
+                    self.shouldShowAlert = true
+                }, label: {
+                    Text("확인")
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(width: 80)
+                        .background(.blue)
+                        .cornerRadius(20)
+                })
+                .alert(isPresented: $shouldShowAlert) {
+                    Alert(title: Text("알림창 입니다."))
+                }
             }
         }
         .padding()
