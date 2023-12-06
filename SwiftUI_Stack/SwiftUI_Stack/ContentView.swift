@@ -12,7 +12,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack(alignment: .bottomTrailing) {
-                
                 VStack(alignment: .leading) {
                     
                     HStack {

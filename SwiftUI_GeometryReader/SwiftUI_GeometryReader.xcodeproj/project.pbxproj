@@ -7,34 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82161DF92B1FF6C400AAB18D /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82161DF82B1FF6C400AAB18D /* MyBasicCard.swift */; };
-		826BB34F2B20A29E00545461 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BB34E2B20A29E00545461 /* MyCard.swift */; };
-		826BB3532B20A68D00545461 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BB3522B20A68D00545461 /* MyList.swift */; };
-		826BB3552B20B5D000545461 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BB3542B20B5D000545461 /* MyNavigationView.swift */; };
-		826BB3572B20B92500545461 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BB3562B20B92500545461 /* MyProfileView.swift */; };
-		82726C2A2B1F565F00B8C53A /* SwiftUI_StackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82726C292B1F565F00B8C53A /* SwiftUI_StackApp.swift */; };
-		82726C2C2B1F565F00B8C53A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82726C2B2B1F565F00B8C53A /* ContentView.swift */; };
-		82726C2E2B1F566000B8C53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82726C2D2B1F566000B8C53A /* Assets.xcassets */; };
-		82726C312B1F566000B8C53A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82726C302B1F566000B8C53A /* Preview Assets.xcassets */; };
-		82726C382B1F567600B8C53A /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82726C372B1F567600B8C53A /* MyProjectCard.swift */; };
+		826BB3652B20B9F000545461 /* SwiftUI_GeometryReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BB3642B20B9F000545461 /* SwiftUI_GeometryReaderApp.swift */; };
+		826BB3672B20B9F000545461 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BB3662B20B9F000545461 /* ContentView.swift */; };
+		826BB3692B20B9F200545461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826BB3682B20B9F200545461 /* Assets.xcassets */; };
+		826BB36C2B20B9F200545461 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826BB36B2B20B9F200545461 /* Preview Assets.xcassets */; };
+		826BB3732B20BA0500545461 /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BB3722B20BA0500545461 /* MyGeometryReader.swift */; };
+		826BB3752B20BDEF00545461 /* MyGeometryVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BB3742B20BDEF00545461 /* MyGeometryVStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		82161DF82B1FF6C400AAB18D /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
-		826BB34E2B20A29E00545461 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
-		826BB3522B20A68D00545461 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
-		826BB3542B20B5D000545461 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
-		826BB3562B20B92500545461 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
-		82726C262B1F565F00B8C53A /* SwiftUI_Stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Stack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		82726C292B1F565F00B8C53A /* SwiftUI_StackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StackApp.swift; sourceTree = "<group>"; };
-		82726C2B2B1F565F00B8C53A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		82726C2D2B1F566000B8C53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		82726C302B1F566000B8C53A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		82726C372B1F567600B8C53A /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		826BB3612B20B9F000545461 /* SwiftUI_GeometryReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_GeometryReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		826BB3642B20B9F000545461 /* SwiftUI_GeometryReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_GeometryReaderApp.swift; sourceTree = "<group>"; };
+		826BB3662B20B9F000545461 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		826BB3682B20B9F200545461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		826BB36B2B20B9F200545461 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		826BB3722B20BA0500545461 /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
+		826BB3742B20BDEF00545461 /* MyGeometryVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryVStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		82726C232B1F565F00B8C53A /* Frameworks */ = {
+		826BB35E2B20B9F000545461 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,43 +36,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		82726C1D2B1F565F00B8C53A = {
+		826BB3582B20B9F000545461 = {
 			isa = PBXGroup;
 			children = (
-				82726C282B1F565F00B8C53A /* SwiftUI_Stack */,
-				82726C272B1F565F00B8C53A /* Products */,
+				826BB3632B20B9F000545461 /* SwiftUI_GeometryReader */,
+				826BB3622B20B9F000545461 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		82726C272B1F565F00B8C53A /* Products */ = {
+		826BB3622B20B9F000545461 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82726C262B1F565F00B8C53A /* SwiftUI_Stack.app */,
+				826BB3612B20B9F000545461 /* SwiftUI_GeometryReader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		82726C282B1F565F00B8C53A /* SwiftUI_Stack */ = {
+		826BB3632B20B9F000545461 /* SwiftUI_GeometryReader */ = {
 			isa = PBXGroup;
 			children = (
-				82726C292B1F565F00B8C53A /* SwiftUI_StackApp.swift */,
-				82726C2B2B1F565F00B8C53A /* ContentView.swift */,
-				82726C372B1F567600B8C53A /* MyProjectCard.swift */,
-				826BB34E2B20A29E00545461 /* MyCard.swift */,
-				82161DF82B1FF6C400AAB18D /* MyBasicCard.swift */,
-				826BB3522B20A68D00545461 /* MyList.swift */,
-				826BB3562B20B92500545461 /* MyProfileView.swift */,
-				826BB3542B20B5D000545461 /* MyNavigationView.swift */,
-				82726C2D2B1F566000B8C53A /* Assets.xcassets */,
-				82726C2F2B1F566000B8C53A /* Preview Content */,
+				826BB3642B20B9F000545461 /* SwiftUI_GeometryReaderApp.swift */,
+				826BB3662B20B9F000545461 /* ContentView.swift */,
+				826BB3722B20BA0500545461 /* MyGeometryReader.swift */,
+				826BB3742B20BDEF00545461 /* MyGeometryVStack.swift */,
+				826BB3682B20B9F200545461 /* Assets.xcassets */,
+				826BB36A2B20B9F200545461 /* Preview Content */,
 			);
-			path = SwiftUI_Stack;
+			path = SwiftUI_GeometryReader;
 			sourceTree = "<group>";
 		};
-		82726C2F2B1F566000B8C53A /* Preview Content */ = {
+		826BB36A2B20B9F200545461 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				82726C302B1F566000B8C53A /* Preview Assets.xcassets */,
+				826BB36B2B20B9F200545461 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -88,39 +76,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82726C252B1F565F00B8C53A /* SwiftUI_Stack */ = {
+		826BB3602B20B9F000545461 /* SwiftUI_GeometryReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82726C342B1F566000B8C53A /* Build configuration list for PBXNativeTarget "SwiftUI_Stack" */;
+			buildConfigurationList = 826BB36F2B20B9F200545461 /* Build configuration list for PBXNativeTarget "SwiftUI_GeometryReader" */;
 			buildPhases = (
-				82726C222B1F565F00B8C53A /* Sources */,
-				82726C232B1F565F00B8C53A /* Frameworks */,
-				82726C242B1F565F00B8C53A /* Resources */,
+				826BB35D2B20B9F000545461 /* Sources */,
+				826BB35E2B20B9F000545461 /* Frameworks */,
+				826BB35F2B20B9F000545461 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUI_Stack;
-			productName = SwiftUI_Stack;
-			productReference = 82726C262B1F565F00B8C53A /* SwiftUI_Stack.app */;
+			name = SwiftUI_GeometryReader;
+			productName = SwiftUI_GeometryReader;
+			productReference = 826BB3612B20B9F000545461 /* SwiftUI_GeometryReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		82726C1E2B1F565F00B8C53A /* Project object */ = {
+		826BB3592B20B9F000545461 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					82726C252B1F565F00B8C53A = {
+					826BB3602B20B9F000545461 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 82726C212B1F565F00B8C53A /* Build configuration list for PBXProject "SwiftUI_Stack" */;
+			buildConfigurationList = 826BB35C2B20B9F000545461 /* Build configuration list for PBXProject "SwiftUI_GeometryReader" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,48 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 82726C1D2B1F565F00B8C53A;
-			productRefGroup = 82726C272B1F565F00B8C53A /* Products */;
+			mainGroup = 826BB3582B20B9F000545461;
+			productRefGroup = 826BB3622B20B9F000545461 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82726C252B1F565F00B8C53A /* SwiftUI_Stack */,
+				826BB3602B20B9F000545461 /* SwiftUI_GeometryReader */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		82726C242B1F565F00B8C53A /* Resources */ = {
+		826BB35F2B20B9F000545461 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82726C312B1F566000B8C53A /* Preview Assets.xcassets in Resources */,
-				82726C2E2B1F566000B8C53A /* Assets.xcassets in Resources */,
+				826BB36C2B20B9F200545461 /* Preview Assets.xcassets in Resources */,
+				826BB3692B20B9F200545461 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		82726C222B1F565F00B8C53A /* Sources */ = {
+		826BB35D2B20B9F000545461 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				826BB3572B20B92500545461 /* MyProfileView.swift in Sources */,
-				82726C382B1F567600B8C53A /* MyProjectCard.swift in Sources */,
-				82726C2C2B1F565F00B8C53A /* ContentView.swift in Sources */,
-				82161DF92B1FF6C400AAB18D /* MyBasicCard.swift in Sources */,
-				826BB34F2B20A29E00545461 /* MyCard.swift in Sources */,
-				82726C2A2B1F565F00B8C53A /* SwiftUI_StackApp.swift in Sources */,
-				826BB3532B20A68D00545461 /* MyList.swift in Sources */,
-				826BB3552B20B5D000545461 /* MyNavigationView.swift in Sources */,
+				826BB3672B20B9F000545461 /* ContentView.swift in Sources */,
+				826BB3652B20B9F000545461 /* SwiftUI_GeometryReaderApp.swift in Sources */,
+				826BB3732B20BA0500545461 /* MyGeometryReader.swift in Sources */,
+				826BB3752B20BDEF00545461 /* MyGeometryVStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		82726C322B1F566000B8C53A /* Debug */ = {
+		826BB36D2B20B9F200545461 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		82726C332B1F566000B8C53A /* Release */ = {
+		826BB36E2B20B9F200545461 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,14 +272,14 @@
 			};
 			name = Release;
 		};
-		82726C352B1F566000B8C53A /* Debug */ = {
+		826BB3702B20B9F200545461 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Stack/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_GeometryReader/Preview Content\"";
 				DEVELOPMENT_TEAM = SQDR264Q5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +293,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ios3.SwiftUI-Stack";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios3.SwiftUI-GeometryReader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,14 +301,14 @@
 			};
 			name = Debug;
 		};
-		82726C362B1F566000B8C53A /* Release */ = {
+		826BB3712B20B9F200545461 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Stack/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_GeometryReader/Preview Content\"";
 				DEVELOPMENT_TEAM = SQDR264Q5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -338,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ios3.SwiftUI-Stack";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios3.SwiftUI-GeometryReader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -349,25 +333,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82726C212B1F565F00B8C53A /* Build configuration list for PBXProject "SwiftUI_Stack" */ = {
+		826BB35C2B20B9F000545461 /* Build configuration list for PBXProject "SwiftUI_GeometryReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82726C322B1F566000B8C53A /* Debug */,
-				82726C332B1F566000B8C53A /* Release */,
+				826BB36D2B20B9F200545461 /* Debug */,
+				826BB36E2B20B9F200545461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82726C342B1F566000B8C53A /* Build configuration list for PBXNativeTarget "SwiftUI_Stack" */ = {
+		826BB36F2B20B9F200545461 /* Build configuration list for PBXNativeTarget "SwiftUI_GeometryReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82726C352B1F566000B8C53A /* Debug */,
-				82726C362B1F566000B8C53A /* Release */,
+				826BB3702B20B9F200545461 /* Debug */,
+				826BB3712B20B9F200545461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 82726C1E2B1F565F00B8C53A /* Project object */;
+	rootObject = 826BB3592B20B9F000545461 /* Project object */;
 }
