@@ -13,24 +13,24 @@ struct ContentView: View {
             VStack {
                 // 파이차트 그리기 예제
                 ZStack {
-                    pieChart(startAngle: 190, endAngle: 0)
+                    pieChart(startAngle: 0, endAngle: 190)
                         .fill(.yellow)
                         .frame(width:300, height: 300)
                     
-                    pieChart(startAngle: 110, endAngle: 190)
+                    pieChart(startAngle: 190, endAngle: 110)
                         .fill(.cyan)
                         .frame(width:300, height: 300)
                     
-                    pieChart(startAngle: 90, endAngle: 110)
+                    pieChart(startAngle: 110, endAngle: 90)
                         .fill(.blue)
                         .frame(width:300, height: 300)
                     
-                    pieChart(startAngle: 0, endAngle: 90)
+                    pieChart(startAngle: 90, endAngle: 0)
                         .fill(.purple)
                         .frame(width:300, height: 300)
                         .offset(x:20, y:20)
                         .overlay(
-                            pieChart(startAngle: 0, endAngle: 90)
+                            pieChart(startAngle: 90, endAngle: 0)
                                 .stroke(style: StrokeStyle(lineWidth: 10))
                                 .frame(width:290, height: 290)
                                 .offset(x:20, y:20)
@@ -46,8 +46,10 @@ struct ContentView: View {
                 .padding(20)
 //                MyShape()
 //                    .frame(height: 300)
-                CarView()
+//                CarView()
             }
+//            MyShape()
+//                .frame(height: 300)
         }
         .padding()
     }
@@ -74,7 +76,7 @@ struct pieChart: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
         path.move(to: CGPoint(x: rect.midX, y: rect.midY))
-        path.addArc(center: CGPoint(x: rect.midX, y: rect.midY), radius: rect.midX, startAngle: Angle(degrees: startAngle), endAngle: Angle(degrees: endAngle), clockwise: false)
+        path.addArc(center: CGPoint(x: rect.midX, y: rect.midY), radius: rect.midX, startAngle: Angle(degrees: startAngle), endAngle: Angle(degrees: endAngle), clockwise: true)
         path.closeSubpath()
         return path
     }
@@ -154,7 +156,7 @@ struct GradientView: View {
 struct PathView: View {
     var body: some View {
         Path { path in
-            path.move(to: CGPoint(x: 10, y: 10))
+            path.move(to: CGPoint(x: 10, y: 0))
             path.addLine(to: CGPoint(x: 10, y: 350))
             path.addLine(to: CGPoint(x: 300, y: 300))
             path.closeSubpath()

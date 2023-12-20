@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		829D82672B326BA60083790F /* AniNavigationMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D82662B326BA60083790F /* AniNavigationMenuView.swift */; };
+		829D826A2B3277E00083790F /* AniGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D82692B3277E00083790F /* AniGradientView.swift */; };
+		829D826C2B328C900083790F /* PhaseAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D826B2B328C900083790F /* PhaseAnimatorView.swift */; };
+		829D826E2B32B00A0083790F /* KeyframeAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D826D2B32B00A0083790F /* KeyframeAnimatorView.swift */; };
+		829D82702B32BC550083790F /* AnimatedSymbolEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D826F2B32BC550083790F /* AnimatedSymbolEffectView.swift */; };
 		82D57AF52B31748D00E3F17B /* AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D57AF42B31748D00E3F17B /* AnimationApp.swift */; };
 		82D57AF72B31748D00E3F17B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D57AF62B31748D00E3F17B /* ContentView.swift */; };
 		82D57AF92B31748F00E3F17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D57AF82B31748F00E3F17B /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		829D82662B326BA60083790F /* AniNavigationMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniNavigationMenuView.swift; sourceTree = "<group>"; };
+		829D82692B3277E00083790F /* AniGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniGradientView.swift; sourceTree = "<group>"; };
+		829D826B2B328C900083790F /* PhaseAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimatorView.swift; sourceTree = "<group>"; };
+		829D826D2B32B00A0083790F /* KeyframeAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimatorView.swift; sourceTree = "<group>"; };
+		829D826F2B32BC550083790F /* AnimatedSymbolEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSymbolEffectView.swift; sourceTree = "<group>"; };
 		82D57AF12B31748D00E3F17B /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D57AF42B31748D00E3F17B /* AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationApp.swift; sourceTree = "<group>"; };
 		82D57AF62B31748D00E3F17B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +66,11 @@
 				82D57AF42B31748D00E3F17B /* AnimationApp.swift */,
 				82D57AF62B31748D00E3F17B /* ContentView.swift */,
 				82D57B022B3174D400E3F17B /* AniContentView.swift */,
+				829D82692B3277E00083790F /* AniGradientView.swift */,
+				829D826B2B328C900083790F /* PhaseAnimatorView.swift */,
+				829D826D2B32B00A0083790F /* KeyframeAnimatorView.swift */,
+				829D826F2B32BC550083790F /* AnimatedSymbolEffectView.swift */,
+				829D82662B326BA60083790F /* AniNavigationMenuView.swift */,
 				82D57AF82B31748F00E3F17B /* Assets.xcassets */,
 				82D57AFA2B31748F00E3F17B /* Preview Content */,
 			);
@@ -141,7 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				82D57AF72B31748D00E3F17B /* ContentView.swift in Sources */,
+				829D826C2B328C900083790F /* PhaseAnimatorView.swift in Sources */,
+				829D82702B32BC550083790F /* AnimatedSymbolEffectView.swift in Sources */,
+				829D826E2B32B00A0083790F /* KeyframeAnimatorView.swift in Sources */,
+				829D826A2B3277E00083790F /* AniGradientView.swift in Sources */,
 				82D57AF52B31748D00E3F17B /* AnimationApp.swift in Sources */,
+				829D82672B326BA60083790F /* AniNavigationMenuView.swift in Sources */,
 				82D57B032B3174D400E3F17B /* AniContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
