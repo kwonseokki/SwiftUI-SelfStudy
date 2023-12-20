@@ -10,10 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Linear")
+            LinearGradient(colors: [.purple, .blue], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .frame(width: 200, height: 200)
+            
+            Text("Radical")
+            RadialGradient(colors: [.purple, .blue], center: .center, startRadius: 80, endRadius: 10)
+                .frame(width: 200, height: 200)
+            
+            
+            
         }
         .padding()
     }
