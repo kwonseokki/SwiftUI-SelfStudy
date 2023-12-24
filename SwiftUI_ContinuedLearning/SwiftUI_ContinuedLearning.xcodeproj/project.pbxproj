@@ -14,6 +14,7 @@
 		828283B12B3727000044FD39 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828283B02B3727000044FD39 /* LongPressGestureBootcamp.swift */; };
 		828283B32B372B1F0044FD39 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828283B22B372B1F0044FD39 /* ScrollViewReaderBootcamp.swift */; };
 		82D889E52B381F2E000E64B9 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D889E42B381F2E000E64B9 /* BackgroundThreadBootcamp.swift */; };
+		82D889E72B38389B000E64B9 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D889E62B38389B000E64B9 /* WeakSelfBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		828283B02B3727000044FD39 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		828283B22B372B1F0044FD39 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		82D889E42B381F2E000E64B9 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
+		82D889E62B38389B000E64B9 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				828283A42B3726BD0044FD39 /* ContentView.swift */,
 				828283B02B3727000044FD39 /* LongPressGestureBootcamp.swift */,
 				82D889E42B381F2E000E64B9 /* BackgroundThreadBootcamp.swift */,
+				82D889E62B38389B000E64B9 /* WeakSelfBootcamp.swift */,
 				828283B22B372B1F0044FD39 /* ScrollViewReaderBootcamp.swift */,
 				828283A62B3726BE0044FD39 /* Assets.xcassets */,
 				828283A82B3726BE0044FD39 /* Preview Content */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D889E72B38389B000E64B9 /* WeakSelfBootcamp.swift in Sources */,
 				828283A52B3726BD0044FD39 /* ContentView.swift in Sources */,
 				828283A32B3726BD0044FD39 /* SwiftUI_ContinuedLearningApp.swift in Sources */,
 				828283B12B3727000044FD39 /* LongPressGestureBootcamp.swift in Sources */,
