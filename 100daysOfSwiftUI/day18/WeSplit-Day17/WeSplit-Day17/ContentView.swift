@@ -25,6 +25,13 @@ struct ContentView: View {
         return amountPerPerson
     }
     
+    var totalContainsTip: Double {
+        // 원래금액 / 100 * 팁
+        let tipValue = checkAmount / 100 * Double(tipPercentage)
+        return checkAmount + tipValue
+    }
+    
+    // 원래금액(checkAmount) + tip 비율
     var body: some View {
         
         NavigationStack {
@@ -46,17 +53,20 @@ struct ContentView: View {
                     .pickerStyle(.navigationLink)
                 }
                 
-                Section {
+                Section("totalPer Person") {
                     Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                }
+                Section("total contains tip") {
+                    Text(totalContainsTip, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                 }
                 // 보기의 항목이 적을때 segmented가 유용하다
                 Section("How much tip do you want to leave?") {
                     Picker("Tip percentage", selection: $tipPercentage) {
-                        ForEach(tipPercentages, id: \.self) {
+                        ForEach(0..<101, id: \.self) {
                             Text($0, format: .percent)
                         }
                     }
-                    .pickerStyle(.segmented)
+                    .pickerStyle(.navigationLink)
                 }
             }.navigationTitle("WeSplit")
                 .toolbar {
